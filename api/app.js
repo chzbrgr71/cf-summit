@@ -8,19 +8,7 @@ var bodyParser = require("body-parser");
 var async = require("async");
 const mongoose = require("mongoose");
 
-var MONGODB_HOST = process.env.MONGODB_HOST;
-console.log(`HOST: `, MONGODB_HOST);
-var MONGODB_PORT = process.env.MONGODB_PORT;
-console.log(`PORT: `, MONGODB_PORT);
-var MONGODB_USERNAME = process.env.MONGODB_USERNAME;
-console.log(`USERNAME: `, MONGODB_USERNAME);
-var MONGODB_PASSWORD = process.env.MONGODB_PASSWORD;
-console.log(`PASSWORD: `, MONGODB_PASSWORD);
-var MONGODB_DBNAME = process.env.MONGODB_DBNAME;
-console.log(`DBNAME: `, MONGODB_DBNAME);
-
-var proto = "mongodb://";
-var URI = proto.concat(MONGODB_USERNAME, ":", MONGODB_PASSWORD, "@", MONGODB_HOST,":", MONGODB_PORT, "/", MONGODB_DBNAME, "?ssl=true");
+var URI = process.env.MONGODB_URI;
 
 console.log(`about to connect to DB with connection string `, URI);
 

@@ -1,22 +1,22 @@
 [
     {
-        "name": "Justice League",
+        "name": "Programming Languages",
         "shortCode": "JLA",
         "pages": {
             "Home": {
-                "title": "Superhero Rating :: Project Homepage",
-                "headerImage": "/static/img/justice/justice.png",
-                "subtitle": "Superhero Rating - Project Homepage"
+                "title": "Programming Language Rating :: Project Homepage",
+                "headerImage": "/static/img/programming/header.png",
+                "subtitle": "Programming Language - Project Homepage"
             },
             "Rating": {
-                "title": "Superhero Rating :: Rate the Superheroes",
-                "headerImage": "/static/img/justice/justice.png",
-                "subtitle": "Rate the Superheroes"
+                "title": "Programming Language Rating :: Rate the Superheroes",
+                "headerImage": "/static/img/programming/header.png",
+                "subtitle": "Rate the Programming Languages"
             },
             "Leaderboard": {
-                "title": "Superhero Rating :: Current Leaderboard",
-                "headerImage": "/static/img/justice/justice.png",
-                "subtitle": "Current Leaderboard - Brian is super cool"
+                "title": "Programming Language Rating :: Current Leaderboard",
+                "headerImage": "/static/img/programming/header.png",
+                "subtitle": "Current Leaderboard"
             }
         }
     }

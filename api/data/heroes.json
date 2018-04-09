@@ -1,34 +1,34 @@
 [
   {
     "_id": "5a4f97cddbbb7e24bd9a13d5",
-    "name": "Superman",
+    "name": "Python",
     "uid": 1,
-    "img": "/static/img/justice/superman.png",
-    "description": "The man of steel",
-    "aliases": "Clark Kent, Son of Jor-el"
+    "img": "/static/img/programming/superman.png",
+    "description": "Python",
+    "aliases": "py-thon"
   },
   {
     "_id": "5a4f97dcdbbb7e24bd9a13d6",
-    "name": "Wonder Woman",
+    "name": "C#",
     "uid": 2,
-    "img": "/static/img/justice/wonderwoman.png",
-    "description": "The goddess of truth",
-    "aliases": "Diana Prince"
+    "img": "/static/img/programming/csharp.png",
+    "description": "C Sharp",
+    "aliases": "C Sharp"
   },
   {
     "_id":  "5a4f97e7dbbb7e24bd9a13d7",
-    "name": "The Flash",
+    "name": "Go",
     "uid": 3,
-    "img": "/static/img/justice/flash.png",
-    "description": "",
-    "aliases": "Barry Allen"
+    "img": "/static/img/programming/go.png",
+    "description": "Golang",
+    "aliases": "Golang"
   },
   {
     "_id": "5a4f97f0dbbb7e24bd9a13d8",
-    "name": "Batman",
+    "name": "Javascript",
     "uid": 4,
-    "img": "/static/img/justice/batman.png",
-    "description": "",
-    "aliases": "Bruce Wayne, The Dark Knight"
+    "img": "/static/img/programming/javascript.png",
+    "description": "Javascript",
+    "aliases": "node.js"
   }
 ]

@@ -1,8 +1,8 @@
 {
   "name": "rating-api",
-  "version": "1.3.5",
-  "description": "AKS Hackfest Rating api",
-  "author": "Joey Schluchter <jschluchter@gmail.com>",
+  "version": "2.0.0",
+  "description": "Rating App for CF Summit",
+  "author": "Brian Redmond <brianisrunning@gmail.com>",
   "scripts": {
     "local": "NODE_ENV='development' MONGODB_URI='mongodb://localhost:27017/webratings' node ./bin/www",
     "dev": "NODE_ENV='development' node ./bin/www",
