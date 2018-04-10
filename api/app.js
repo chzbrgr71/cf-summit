@@ -8,8 +8,16 @@ var bodyParser = require("body-parser");
 var async = require("async");
 const mongoose = require("mongoose");
 
-var URI = process.env.MONGODB_URI;
 
+var VCAP_SERVICES = process.env.VCAP_SERVICES;
+var URI = "";
+if (VCAP_SERVICES === undefined) {
+  URI = process.env.MONGODB_URI;
+} else {
+   vcap_services = JSON.parse(VCAP_SERVICES)
+   URI = vcap_services['azure-cosmosdb-mongo-account'][0].credentials.connectionString;
+
+}
 console.log(`about to connect to DB with connection string `, URI);
 
 var Schema = mongoose.Schema,
