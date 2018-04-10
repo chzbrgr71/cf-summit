@@ -1,0 +1,7 @@
+---
+applications:
+- name: web
+  buildpack: https://github.com/cloudfoundry/nodejs-buildpack
+  command: npm run container
+  env:
+    API: https://api.apps.brianredmond.io/
