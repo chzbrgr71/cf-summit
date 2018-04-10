@@ -1,0 +1,6 @@
+---
+applications:
+- name: api
+  command: npm run container
+  services:
+  - cosmosdb
